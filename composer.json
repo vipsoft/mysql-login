@@ -1,0 +1,25 @@
+{
+    "name": "vipsoft/mysql-login",
+    "type": "library",
+    "description": "Reader/decoder for .mylogin.cnf -- obfuscated MySQL authentication credentials",
+    "keywords": ["mysql", "mariadb", "authentication", "credentials", "security"],
+    "homepage": "http://github.com/vipsoft/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthon Pang",
+            "email": "apang@softwaredevelopment.ca",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.6",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": { "VIPSoft": "src/" }
+    }
+}
